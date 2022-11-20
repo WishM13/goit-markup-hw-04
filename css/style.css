@@ -206,12 +206,18 @@ body {
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   border: 1px solid transparent;
   border-radius: 4px;
 
   cursor: pointer;
 }
+
+/* .hero-button:hover,
+.hero-button:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+} */
 
 /* Наша ефективність */
 
@@ -276,7 +282,7 @@ body {
   line-height: calc(24 / 14);
 }
 
-/* Чим ми займаємося */
+/* ЧИМ МИ ЗАЙМАЄМОСЯ */
 .work {
   background-color: var(--white-color);
 }
@@ -303,7 +309,7 @@ body {
   color: var(--title-text-color);
 }
 
-/* Наша команда */
+/* НАША КОМАНДА */
 .team {
   background-color: var(--bg-color-team);
 }
@@ -349,7 +355,7 @@ body {
   text-align: center;
 }
 
-/* НОВЕ */
+/* ІКОНКИ СОЦ */
 .team-icon {
   display: flex;
   justify-content: center;
@@ -393,8 +399,6 @@ body {
   color: var(--white-color);
 }
 
-/* НОВЕ */
-
 /* ПОСТІЙНІ КЛІЄНТИ */
 
 .client-icon {
@@ -405,7 +409,6 @@ body {
   margin-right: 30px;
   width: 170px;
   height: 92px;
-  /* padding: 16px 32px; */
 }
 
 .client-icon .item:last-child {
@@ -498,6 +501,8 @@ body {
   color: var(--white-color);
 }
 
+/* ІКОНКИ ПІДВАЛУ */
+
 .social-icon {
   display: flex;
   justify-content: center;
@@ -578,6 +583,8 @@ body {
 
 .button:hover,
 .button:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   color: var(--white-color);
   background-color: var(--accent-color);
 }
