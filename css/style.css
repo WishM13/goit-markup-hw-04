@@ -175,7 +175,7 @@ body {
     ),
     url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .hero-title {
@@ -428,7 +428,8 @@ body {
   color: var(--icon-color);
 }
 
-.client-icon .link:hover {
+.client-icon .link:hover,
+.client-icon .link:focus {
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
 }
@@ -439,16 +440,19 @@ body {
 
 /* ПІДВАЛ */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--bg-color-dark);
 }
 
 .footer-container {
   display: flex;
-  padding: 60px 0;
+  align-items: baseline;
 }
 
 .footer-address {
-  padding-right: 70px;
+  margin-right: 70px;
 }
 
 .footer-logo {
@@ -485,10 +489,6 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--transparent-color);
-}
-
-.footer-socials {
-  padding-top: 12px;
 }
 
 .social-title {
